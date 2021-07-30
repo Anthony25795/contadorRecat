@@ -3,9 +3,9 @@ import {useState} from 'react';
 function Contador({valor}) {
     const [conteo, setconteo ]= useState(valor);
 
-        const handleIncrease = () => {
-            setconteo(conteo + 1);   
-        }
+        // const handleIncrease = () => {
+        //     setconteo(conteo + 1);   
+        // }
 
         const handleDecrease = () => {
             setconteo(conteo - 1);   
